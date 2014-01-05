@@ -12,6 +12,7 @@ module FormtasticBootstrap
             yield,
             add_on_content(options[:append]),
             options[:append_content],
+            error_html,
             hint_html
           ].compact.join("\n").html_safe
 
